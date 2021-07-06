@@ -2,21 +2,28 @@ body{
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
-h1{font-size: 50px;}
-span{ color: orange;}
-section{ display: flex;
-        margin-bottom: 100px;
+h1{
+    font-size: 50px;
+}
+span{ 
+    color: orange;
+}
+.flexible-container{ 
+    display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%; 
-     padding-left:5% ;
-    }
-.half-width img{width: 50%;}
-.link-button{ text-decoration:none;
-background-image: linear-gradient(orange, tomato);
-color: white;
-padding: 5px;
-border-radius: 5px;
+    padding-left:5% ;
+}
+.half-width img{width: 50%;
+}
+.link-button{ 
+    text-decoration:none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
 
 }
 .top-banner{
@@ -27,4 +34,7 @@ border-radius: 5px;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.exprience{
+    margin-left: 50px;
 }
